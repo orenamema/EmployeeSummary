@@ -71,6 +71,7 @@ inquirer
 
     ])
     .then(function(data){
+    	// console.log(info);
     	team['manager'] = new Manager(data.managerName, 
     		data.managerId , data.managerEmail, data.managerOfficeNumber);
     	team['engineer'] = new Engineer(data.engineerName, 
@@ -78,6 +79,7 @@ inquirer
     	team['intern'] = new Intern(data.internName, 
     		data.internId , data.internEmail, data.internSchool);
     	html = generateHTML();
+    	// console.log(html);
     	fs.writeFile('output/index.html', html, (err) => {
 		    if (err) throw err;
 		    console.log('File saved!');
@@ -114,8 +116,8 @@ function generateHTML(){
 	        </style>
 	      </head>
 	    <body>
-		    <nav class="navbar navbar-light bg-light text-center">
-			  <a class="navbar-brand text-center" href="#">My Team</a>
+		    <nav class="navbar navbar-light bg-light">
+			  <a class="navbar-brand navbar-center" href="#">My Team</a>
 			</nav>
 			<div class="container">
 				<div class="row">
