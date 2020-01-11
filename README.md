@@ -5,6 +5,16 @@ I have built a software engineering team generator command line application. The
 
 This application passes all unit tests. When the user has completed building the team, the application creates an HTML file that displays a team roster based on the information provided by the user. 
 
+## Technology Used
+* JSON
+* NPM
+* Jest
+* Inquirer
+* Bootstrap
+* Fontawesome
+* JS
+* HTML
+
 ## Requirements
 
 Following are the requirements for this project:
@@ -15,3 +25,8 @@ Following are the requirements for this project:
 * All tests must pass.
 
 ## Code
+
+## Authors
+**Oren Amema**
+* [Github](https://github.com/orenamema)
+* [LinkedIn](https://www.linkedin.com/in/oren-amematekpo-b7a12b13)
