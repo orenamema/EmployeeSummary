@@ -5,11 +5,9 @@ I have built a software engineering team generator command line application. The
 
 This application passes all unit tests. When the user has completed building the team, the application creates an HTML file that displays a team roster based on the information provided by the user. 
 
-## Website
-
-Here is the [link](https://orenamema.github.io/EmployeeSummary/) to the page
-
 ## Requirements
+
+Following are the requirements for this project:
 
 * Functional application.
 * GitHub repository with a unique name and a README describing the project.
