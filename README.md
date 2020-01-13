@@ -15,6 +15,10 @@ This application passes all unit tests. When the user has completed building the
 * JS
 * HTML
 
+## Application
+![alt text](https://github.com/orenamema/Weatherdashboard-Portfolio/raw/master/images/employee.gif)
+
+![alt text](https://github.com/orenamema/Weatherdashboard-Portfolio/raw/master/images/employee2.png)
 ## Requirements
 
 Following are the requirements for this project:
