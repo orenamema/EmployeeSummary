@@ -71,7 +71,7 @@ inquirer
 
     ])
     .then(function(data){
-    	// console.log(info);
+    	console.log(data);
     	team['manager'] = new Manager(data.managerName, 
     		data.managerId , data.managerEmail, data.managerOfficeNumber);
     	team['engineer'] = new Engineer(data.engineerName, 
@@ -113,11 +113,17 @@ function generateHTML(){
 			 .navbar {
 			  min-height: 150px;
 			}
+
+			#nav {
+				text-align: center;
+				margin-left: 40%;
+			}
+			
 	        </style>
 	      </head>
 	    <body>
 		    <nav class="navbar navbar-light bg-light">
-			  <a class="navbar-brand navbar-center" href="#">My Team</a>
+			  <ul id="nav"><a class="navbar-brand text-center" href="#"><h1>My Team</h1></a></ul>
 			</nav>
 			<div class="container">
 				<div class="row">
